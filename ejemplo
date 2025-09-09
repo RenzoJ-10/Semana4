@@ -1,0 +1,28 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Ejemplo");
+        
+                    int edad; string linea;
+            Console.Write("Ingresar edad: ");
+            linea = Console.ReadLine();
+            edad = int.Parse(linea);
+            if (edad <= 18)
+            {
+                Console.WriteLine("Usted es apto para participar en la beca");
+            }
+            else
+            {
+                Console.WriteLine("Usted no es apto para participar en la beca");
+            }
+            Console.ReadKey();
+       
+
+          
+
+        
+    }    
+}
