@@ -6,7 +6,7 @@ public class HelloWorld
     {
         Console.WriteLine ("Ejemplo");
         
-                    int edad; string linea;
+            int edad; string linea;
             Console.Write("Ingresar edad: ");
             linea = Console.ReadLine();
             edad = int.Parse(linea);
