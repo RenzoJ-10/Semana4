@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Semana4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int A = 7;
+            int B = 10;
+
+            bool resultado = A <= B;
+
+            Console.WriteLine("\nA = {0}, B = {1}", A, B);
+            Console.WriteLine("\nA es menor o igual que B: {0}", resultado);
+            Console.ReadKey();
+        }
+    }
+}
