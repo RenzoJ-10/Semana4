@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int edaddNiño = 10;
+            int edadMinima = 13;
+            Console.WriteLine("¿El niño puede entrar al cine solo?")
+                
+                if (edaddNiño < edadMinima)
+            
+                Console.WriteLine("No porque tiene edad" + edaddNiño + " años y la edad minima es " + edadMinima + ".");
+        }
+    }
+}
